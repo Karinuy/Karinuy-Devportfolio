@@ -11,22 +11,22 @@ export const siteConfig = {
   },
   aboutMe:
     "我是一名网站运维开发人员，主要负责网站的运维和前端开发",
-  skills: ["Javascript", "React", "Typescript", "Vue", "Astro", "Serverless"],
+  skills: ["Javascript", "React", "Typescript", "Vue", "Astro", "Serverless", "Golang"],
   projects: [
+    {
+      name: "Singularity",
+      description:
+        "基于Golang的开源轻量高性能TelegramBot✨",
+      link: "https://github.com/Karinuy/Singularity",
+      skills: ["Golang",],
+    },
     {
       name: "UUZNAV",
       description:
-        "开源静态导航项目，使用NaiveUI作为主要组件库，以静态生成SSG架构为主",
+        "开源静态导航项目，使用NaiveUI作为主要组件库，以静态生成SSG架构为主✨",
       link: "https://github.com/Karinuy/UUZNAV",
-      skills: ["Astro", "Node.js", "Vue"],
+      skills: ["Astro", "Typescrit", "Vue"],
     },
-    // {
-    //   name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-    //   description:
-    //     "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-    //   link: "https://fullstackextensions.com/?ref=devportfolio",
-    //   skills: ["React", "Node.js", "AWS"],
-    // },
   ],
   experience: [
     {
