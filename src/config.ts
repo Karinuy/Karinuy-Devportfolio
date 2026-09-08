@@ -14,18 +14,25 @@ export const siteConfig = {
   skills: ["Javascript", "React", "Typescript", "Vue", "Astro", "Serverless", "Golang"],
   projects: [
     {
-      name: "Singularity",
+      name: "东方图书馆",
       description:
-        "基于Golang的开源轻量高性能TelegramBot✨",
-      link: "https://github.com/Karinuy/Singularity",
-      skills: ["Golang",],
+        "由热爱驱动的东方Project档案库，这里存放着东方Project相关的一切✨",
+      link: "https://www.touhou.date/",
+      skills: ["AllFree",],
     },
     {
       name: "UUZNAV",
       description:
         "开源静态导航项目，使用NaiveUI作为主要组件库，以静态生成SSG架构为主✨",
-      link: "https://github.com/Karinuy/UUZNAV",
+      link: "https://github.com/Karinuy/UUZNAV/",
       skills: ["Astro", "Typescrit", "Vue"],
+    },
+    {
+      name: "Singularity",
+      description:
+        "基于Golang的开源轻量高性能TelegramBot✨",
+      link: "https://github.com/Karinuy/Singularity",
+      skills: ["Golang",],
     },
   ],
   experience: [
