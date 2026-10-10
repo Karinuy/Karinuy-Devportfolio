@@ -26,18 +26,10 @@ export const siteConfig = {
         "开源静态导航项目，使用NaiveUI作为主要组件库，以静态生成SSG架构为主✨",
       link: "https://github.com/Karinuy/UUZNAV/",
       skills: ["Astro", "Typescrit", "Vue"],
-    },
-    {
-      name: "Singularity",
-      description:
-        "基于Golang的开源轻量高性能TelegramBot✨",
-      link: "https://github.com/Karinuy/Singularity",
-      skills: ["Golang",],
-    },
+    }
   ],
   experience: [
     {
-      // company: "个人",
       title: "网站运维",
       dateRange: "July 2023 - Present",
       bullets: [
